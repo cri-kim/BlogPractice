@@ -2,18 +2,16 @@ package common;
 
 
 import org.junit.jupiter.api.Test;
+
 import static org.junit.Assert.assertEquals;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Comparator;
-import java.util.HashSet;
 import java.util.List;
-import java.util.Set;
 import java.util.stream.IntStream;
 
 /*
- * 2020.11.18, 11.20
+ * 2020.11.18, 11.20, 11.23
  * codeup
  * */
 public class Greedy_001 {
@@ -128,23 +126,50 @@ public class Greedy_001 {
 	//s 펜션 도착일, t 펜션 떠나는날
 	public int question_4040(int n, int m, String[] arr, int s, int t) {
 		int answer = 0;
-		while(true) {
-			if(answer > t) break;
+		
+		for(int i=s-1;i<t;) {
+			if(i > s) answer++;
 			int max = 0;
-			for(int i=0;i<m;i++) {
-				String room = arr[s-1];
-				if(room.contains("O")) {
-					int cnt = 1;
-				}
+			for(int j=0;j<m;j++) {
+				int temp = question_4040_1(j, arr, i);
+				if(temp > max) max = temp;
 			}
+			if(max == 0) return -1;
+			i += max;
 		}
+
 		return answer;
 	}
+
+	public int question_4040_1(int roomNo, String[] arr, int s) {
+		int days = 0;
+		
+		for(int i=s;i<arr.length;i++) {
+			String str = arr[i];
+			char ch = str.charAt(roomNo);
+			if(ch == 'O') {
+				days++;
+			}
+			else {
+				break;
+			}
+		}
+		
+		return days;
+	}
+
 	@Test
 	public void 정답_4040() {
-		assertEquals(37,question_4040(10,7,new String[] {"XXXXXXX"
-				,"XOXXXXO"				,"XOXXXXO"				,"XOXXXOX"				,"OXXOXOX"
-				,"XOXOXOX"				,"OXXOXOX"				,"OXXXXOX"				,"XXXXXXX"
+		assertEquals(2,question_4040(10,7,new String[] {
+				 "XXXXXXX"
+				,"XOXXXXO"
+				,"XOXXXXO"
+				,"XOXXXXX"
+				,"OXXOXOX"
+				,"XOXOXOX"
+				,"OXXOXOX"
+				,"OXXXXOX"
+				,"XXXXOXX"
 				,"XXXXXXX"},2,9));
 	}
 	
