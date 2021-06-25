@@ -9,3 +9,5 @@ sites/site*/public/theme/
 textpattern/
 HISTORY.txt
 README.txt
+springboot/spring-jpa/mvnw
+springboot/spring-jpa/mvnw.cmd
