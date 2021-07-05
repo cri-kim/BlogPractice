@@ -11,3 +11,12 @@ HISTORY.txt
 README.txt
 springboot/spring-jpa/mvnw
 springboot/spring-jpa/mvnw.cmd
+
+.classpath
+.project
+.factorypath
+.settings/
+target/
+
+.next/
+node_modules/
