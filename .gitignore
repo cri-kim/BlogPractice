@@ -20,3 +20,6 @@ target/
 
 .next/
 node_modules/
+
+*.exe
+*.mod

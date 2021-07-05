@@ -1,6 +1,6 @@
 package main
 
-import "fmt"
+import "fmt" //fmt 라는 패키지를 가져오겠다.
 
 func main() {
 	var a int = 10
