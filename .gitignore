@@ -17,6 +17,7 @@ springboot/spring-jpa/mvnw.cmd
 .factorypath
 .settings/
 target/
+.class
 
 .next/
 node_modules/
