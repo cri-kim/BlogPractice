@@ -1,6 +1,5 @@
 package structure;
 
-import java.util.Queue;
 
 public class ListNodeStack implements Stack{
 	ListNode items;
