@@ -10,7 +10,7 @@ public class ListNode implements LinkedList{
 	}
 	
 	public ListNode(){}
-	public ListNode(int item){ this.item = item;}
+	public ListNode(int item){ this.item = item; this.next=null;}
 	
 	@Override
 	public ListNode add(ListNode head, ListNode nodeToAdd, int position) {
@@ -39,9 +39,7 @@ public class ListNode implements LinkedList{
 		ListNode node = head;
 		
 		if(positionToRemove == 0) {
-			ListNode nodeToDelete = node;
-			head = node.next;
-			nodeToDelete.next = null;
+			return head.getNext();
 		}
 		
 		while(positionToRemove > 0) {
@@ -74,5 +72,9 @@ public class ListNode implements LinkedList{
 	}
 	public ListNode getNext() {
 		return this.next;
+	}
+	
+	public void setNext(ListNode node) {
+		this.next = node;
 	}
 }
