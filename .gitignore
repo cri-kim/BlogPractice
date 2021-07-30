@@ -51,3 +51,9 @@ computer-science/.metadata/.plugins/org.eclipse.tips.ide/dialog_settings.xml
 computer-science/.metadata/.plugins/org.eclipse.tm.terminal.view.ui/.executables/data.properties
 computer-science/.metadata/.plugins/org.eclipse.ui.intro/introstate
 computer-science/.metadata/.plugins/org.eclipse.ui.workbench/workingsets.xml
+computer-science/.metadata/.plugins/org.eclipse.core.resources/.root/2.tree
+*.lock
+*.log
+*.ini
+*.xml
+*.properties
