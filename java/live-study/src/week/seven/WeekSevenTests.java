@@ -13,8 +13,8 @@ public class WeekSevenTests {
 		Package pkg = new Package();
 		week.Package oPkg = pkg.getOtherPackageClass();
 		String str = oPkg.str1;
-		String str2 = oPkg.str2;//impassive to get private value
-		String str3 = oPkg.str3;//impassive to get protected value( not same package )
+		//String str2 = oPkg.str2;//impassive to get private value
+		//String str3 = oPkg.str3;//impassive to get protected value( not same package )
 		
 	}
 	
