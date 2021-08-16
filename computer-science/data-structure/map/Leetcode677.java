@@ -17,7 +17,7 @@ import java.util.Map;
  * int param_2 = obj.sum(prefix);
  */
 
-public class MapSum {
+public class Leetcode677 {
 	Map<String, Integer> map;
     /** Initialize your data structure here. */
     public MapSum() {
