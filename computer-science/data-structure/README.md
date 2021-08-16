@@ -2,7 +2,7 @@
 ## 개요
 컴퓨터에서 사용하는 데이터 구조에 대해서 학습하고 문제를 풀어봅니다.
 
-## 목차
+## 출제 사이트
 [1. 백준(Backjun)](#backjun)  
 [2. LeetCode](#leetcode)  
 [3. 프로그래머스(programmers)](#programmers)   
