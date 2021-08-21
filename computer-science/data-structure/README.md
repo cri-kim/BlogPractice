@@ -20,5 +20,5 @@ https://leetcode.com/
 https://programmers.co.kr/
 ## codility
 https://www.codility.com/
-## hackerrand
+## hackerrank
 https://www.hackerrank.com/
