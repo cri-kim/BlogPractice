@@ -68,6 +68,8 @@
 - 소프트웨어공학
   - 애자일(Agile)
   - 도서 : 개발자도 알아야할 테스팅 실무
+  - DDD
+  - TDD
 ## Project Management
 - 프로젝트 설계
   - MSA
@@ -94,7 +96,7 @@
    - jenkins
  - 협업 도구
    - Redmine
-   - notion
+   - Notion
  - SEO
  - 검색엔진
     - ELK
