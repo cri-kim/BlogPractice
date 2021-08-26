@@ -11,8 +11,7 @@
 > [4.Spring](#spring)  
 > [5.Python](#python)  
 > [6.Computer Science](#computer-science)  
-> [7.Project Management](#project-management)  
-> [8.OSS](#oss)
+> [7.Etc](#etc)  
 
 ## Golang
 - 스터디 : Go 언어 프로그래밍 (Tucker의 Go 언어 프로그래밍) https://67crystalk.tistory.com/63
@@ -37,8 +36,10 @@
 - AOP
 - DI
 - Security
-- Filter
-- Interceptor
+- Batch
+- Quartz
+- Spring Cloud
+- Filter & Interceptor
 - ORM
   - JPA
   - QueryDSL
@@ -48,9 +49,16 @@
 ## Python
 - 도서 : 파이썬 프로그래밍(조인석님)
 ## Computer Science
-- 데이터구조
-- 알고리즘
+- 데이터구조 & 알고리즘 https://67crystalk.tistory.com/84
 - 운영체제
+  - Linux
+    - centos
+    - redhat
+    - ubuntu
+  - Unix
+  - Windows
+  - shell script
+  - powrshell
 - 데이터베이스
   - RDBMS
     - Oracle
@@ -60,7 +68,12 @@
   - NoSQL
     - MongoDB
     - Redis
+  - InMemory DB
 - 네트워크
+  - 이론
+  - ethernet switch
+  - router
+  - 가상라우터(vyos)
 - 보안
 - 디지털시스템
   - 전자계산기
@@ -70,16 +83,25 @@
   - 도서 : 개발자도 알아야할 테스팅 실무
   - DDD
   - TDD
-## Project Management
+## Etc
 - 프로젝트 설계
   - MSA
   - Monolithic
-- 프로젝트 관리
+- 가상화기술
+  - 온프로미스 & 클라우드 컴퓨팅 아키텍쳐
   - Virtual machine
+  - KVM
   - orchestration
     - kubernetes
   - Docker
+    - swarm
+    - compose
   - containers
+- Web Server
+  - apache web server
+  - WAS
+    - tomcat
+  - IIS 
 - DevOps
 - Cloud System
   - Amazon Web Service
@@ -97,6 +119,8 @@
  - 협업 도구
    - Redmine
    - Notion
+   - Slack
+   - trello
  - SEO
  - 검색엔진
     - ELK
@@ -104,9 +128,10 @@
 - REST API
 - SOAP API
 - GraphQL
-## OSS
 - apache kafka
 - apache HBase
 - RabbitMQ
+- OpenStack
+  - keyston, glance, nova, neutron, cinder, swift
 # 블로그
 > 말많은 김크리 https://67crystalk.tistory.com/
