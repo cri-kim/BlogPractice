@@ -14,15 +14,16 @@
 > [7.Etc](#etc)  
 
 ## Golang
-- 스터디 : Go 언어 프로그래밍 (Tucker의 Go 언어 프로그래밍) https://67crystalk.tistory.com/63
+- 스터디 : [Go 언어 프로그래밍 (Tucker의 Go 언어 프로그래밍)] (https://67crystalk.tistory.com/63)
 ## Java
-- 스터디 : whiteship_java_study (백기선님) https://67crystalk.tistory.com/58?category=432627
+- 스터디 : [whiteship_java_study (백기선님)] (https://67crystalk.tistory.com/58?category=432627)
 - Test
   - JUnit
   - Mokito
   - JMeter
 - Error Handling
 - JNI
+- Java 11
 ## Javascript
 - 강의 : 모던 리액트와 리덕스(Udemy, 블로커아카데미KO)
 - ES5 & ES6
@@ -49,7 +50,7 @@
 ## Python
 - 도서 : 파이썬 프로그래밍(조인석님)
 ## Computer Science
-- 데이터구조 & 알고리즘 https://67crystalk.tistory.com/84
+- [데이터구조 & 알고리즘] (https://67crystalk.tistory.com/84)
 - 운영체제
   - Linux
     - centos
@@ -134,4 +135,4 @@
 - OpenStack
   - keyston, glance, nova, neutron, cinder, swift
 # 블로그
-> 말많은 김크리 https://67crystalk.tistory.com/
+> [말많은 김크리] (https://67crystalk.tistory.com/)
