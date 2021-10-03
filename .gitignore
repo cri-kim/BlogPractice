@@ -22,6 +22,9 @@ target/
 .next/
 node_modules/
 
+gradle-wrapper.jar
+*.idx
+*.bin
 *.exe
 *.mod
 *.class
