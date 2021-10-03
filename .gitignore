@@ -25,6 +25,7 @@ node_modules/
 *.exe
 *.mod
 *.class
+.gradle/
 java/live-study/src/livestudy/SecurityInfo.java
 *.lock
 *.log
