@@ -11,7 +11,7 @@
 > [4.Spring](#spring)  
 > [5.Python](#python)  
 > [6.Computer Science](#computer-science)  
-> [7.R](#r)
+> [7.R](#r)  
 > [8.Etc](#etc)  
 
 ## Golang
