@@ -1,6 +1,8 @@
 package com.example.demo;
 
-import com.example.demo.user.dao.NUserDao;
+import com.example.demo.user.dao.ConnectionMaker;
+import com.example.demo.user.dao.DConnectionMaker;
+import com.example.demo.user.dao.UserDao;
 import com.example.demo.user.domain.User;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -12,8 +14,8 @@ public class DemoApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
-
-		NUserDao dao = new NUserDao();
+		ConnectionMaker connectionMaker = new DConnectionMaker();
+		UserDao dao = new UserDao(connectionMaker);
 		User user = new User();
 		user.setId("sjkim");
 		user.setName("김수정");
