@@ -1,6 +1,6 @@
 package com.example.demo;
 
-import com.example.demo.user.dao.UserDao;
+import com.example.demo.user.dao.NUserDao;
 import com.example.demo.user.domain.User;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -13,7 +13,7 @@ public class DemoApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
 
-		UserDao dao = new UserDao();
+		NUserDao dao = new NUserDao();
 		User user = new User();
 		user.setId("sjkim");
 		user.setName("김수정");
