@@ -13,7 +13,7 @@ public class DemoApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
-		UserDao dao = new DaoFactory().userdao();
+		UserDao dao = new DaoFactory().userDao();
 		User user = new User();
 		user.setId("sjkim");
 		user.setName("김수정");
@@ -26,4 +26,5 @@ public class DemoApplication {
 			e.printStackTrace();
 		}
 	}
+
 }

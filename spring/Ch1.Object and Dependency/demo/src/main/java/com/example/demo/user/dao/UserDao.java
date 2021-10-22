@@ -1,18 +1,18 @@
 package com.example.demo.user.dao;
 
 import com.example.demo.user.domain.User;
+import lombok.Data;
 
+import javax.sql.DataSource;
 import java.sql.*;
 
-public class UserDao {
-    private ConnectionMaker connectionMaker;
+@Data
+public class UserDao{
 
-    public UserDao(ConnectionMaker connectionMaker){
-        this.connectionMaker = connectionMaker;
-    }
+    private DataSource dataSource;
 
     public void add(User user) throws ClassNotFoundException, SQLException {
-        Connection c = connectionMaker.makeNewConnection();
+        Connection c = dataSource.getConnection();
 
         PreparedStatement ps = c.prepareStatement(
                 "insert into user(id, name, password) values(?,?,?)");
@@ -26,7 +26,7 @@ public class UserDao {
     }
 
     public User get(String id) throws ClassNotFoundException, SQLException {
-        Connection c = connectionMaker.makeNewConnection();
+        Connection c = dataSource.getConnection();
                 PreparedStatement ps = c.prepareStatement(
                 "select * from user where id = ?");
         ps.setString(1, id);
