@@ -40,4 +40,39 @@ public class CalCultator {
             }
         }
     }
+
+    public Integer lineReadTemplate(String filepath, LineCallback callback, int intVal)
+    throws IOException{
+        BufferedReader br = null;
+        try {
+            br = new BufferedReader(new FileReader((filepath)));
+            Integer res = intVal;
+            String line = null;
+            while((line = br.readLine())!= null){
+                res = callback.doSomethingWithLine(line,res);
+            }
+            return res;
+        }catch (IOException e){
+            throw e;
+        }
+        finally {
+            try {
+                br.close();
+            }catch (IOException e){
+                System.out.println(e.getMessage());
+            }
+        }
+
+    }
+
+    public Integer calcMultiply(String filePath) throws IOException{
+        LineCallback multiplyCallback = new LineCallback(){
+            @Override
+            public Integer doSomethingWithLine(String line, Integer value)
+                    throws IOException {
+                return value * Integer.valueOf(line);
+            }
+        };
+        return lineReadTemplate(filePath,multiplyCallback,1);
+    }
 }
