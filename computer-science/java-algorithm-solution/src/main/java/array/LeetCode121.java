@@ -2,6 +2,7 @@ package array;
 
 import java.util.Arrays;
 // 7분
+// 다른 내용 참고
 public class LeetCode121 {
     public int maxProfitTime(int[] prices ) {
         int n= prices.length;
@@ -24,7 +25,7 @@ public class LeetCode121 {
         int profit = 0;
         for(int i=0;i<prices.length-1;i++){
             int priceOfStock = prices[i];
-            int priceOfSell = Arrays.stream(Arrays.copyOfRange(nums,i+1, nums.length)).max().getAsInt();
+            int priceOfSell = Arrays.stream(Arrays.copyOfRange(prices,i+1, prices.length)).max().getAsInt();
             if(priceOfSell - priceOfStock > profit){
                 profit = priceOfSell - priceOfStock;
             }

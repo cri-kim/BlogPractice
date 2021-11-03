@@ -9,6 +9,6 @@ public class LeetCode121Test {
     void maxProfitTest(){
         LeetCode121 method = new LeetCode121();
         assertEquals(5,
-                method.maxProfit(new int[]{7,1,5,3,6,4}));
+                method.maxProfitTime(new int[]{7,1,5,3,6,4}));
     }
 }
