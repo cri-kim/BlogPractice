@@ -4,28 +4,20 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class LeetCode24TEst {
+public class LeetCode328Test {
     @Test
-    void swapPairsTest(){
-        LeetCode24 method = new LeetCode24();
+    void oddEvenListTest(){
+        LeetCode328 method = new LeetCode328();
 
         ListNode head = new ListNode();
-        setListNode(head, new int[]{});
-        ListNode root = method.swapPairs(head.next);
-        int[] expected = new int[]{};
+        setListNode(head, new int[]{1,2,3,4,5});
+        ListNode root = method.oddEvenList(head.next);
+        int[] expected = new int[]{1,3,5,2,4};
         for(int i=0;i<expected.length;i++){
-            assertEquals(root.val, expected[i]);
+            assertEquals(expected[i], root.val);
             root = root.next;
         }
-    }
 
-    //예시 만드는데 약 20분
-    private void printListNode(ListNode root){
-        ListNode temp = root.next;
-        while(temp !=null){
-            System.out.println(temp.val);
-            temp = temp.next;
-        }
     }
     private void setListNode(ListNode root, int[] arr){
         for(int i=0 ; i < arr.length ; i++){
