@@ -11,7 +11,6 @@
 > [4.Spring](#spring)  
 > [5.Python](#python)  
 > [6.Computer Science](#computer-science)  
-> [7.Etc](#etc)  
 
 ## Golang
 - 스터디 : [Go 언어 프로그래밍 (Tucker의 Go 언어 프로그래밍)] (https://67crystalk.tistory.com/63)
@@ -111,7 +110,6 @@
 - SCM
   - SVN
   - GIT
-    - BONOBO
     - Gitlab
     - Github
     - bitbucket
