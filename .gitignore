@@ -30,7 +30,6 @@ gradle-wrapper.jar
 *.class
 .gradle/
 java/live-study/src/livestudy/SecurityInfo.java
-<<<<<<< HEAD
 computer-science/.metadata/.lock
 computer-science/.metadata/.log
 computer-science/.metadata/version.ini
@@ -62,7 +61,6 @@ computer-science/.metadata/.plugins/org.eclipse.core.resources/.root/2.tree
 *.ini
 *.xml
 *.properties
-=======
 *.lock
 *.log
 *.ini
@@ -88,7 +86,6 @@ computer-science/.metadata/.plugins/org.eclipse.ui.intro/introstate
 computer-science/data-structure/.metadata/.mylyn/.taskListIndex/segments_1
 computer-science/data-structure/.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps
 computer-science/data-structure/.metadata/.plugins/org.eclipse.ui.intro/introstate
->>>>>>> main
 .Rproj.user
 r/.RData
 r/.Rhistory

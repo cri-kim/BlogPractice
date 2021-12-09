@@ -11,8 +11,6 @@
 > [4.Spring](#spring)  
 > [5.Python](#python)  
 > [6.Computer Science](#computer-science)  
-> [7.R](#r)  
-> [8.Etc](#etc)  
 
 ## Golang
 - 스터디 : [Go 언어 프로그래밍 (Tucker의 Go 언어 프로그래밍)] (https://67crystalk.tistory.com/63)
@@ -85,8 +83,6 @@
   - 도서 : 개발자도 알아야할 테스팅 실무
   - DDD
   - TDD
-## R
-- 도서 : 나성호의 R 데이터 분석 입문
 ## Etc
 - 프로젝트 설계
   - MSA
@@ -114,7 +110,6 @@
 - SCM
   - SVN
   - GIT
-    - BONOBO
     - Gitlab
     - Github
     - bitbucket
